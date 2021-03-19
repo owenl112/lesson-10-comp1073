@@ -31,8 +31,8 @@
 		request.onload = function() {
 			let iScreamInc = request.response;
 			console.log(iScreamInc);
-			populateHeader(iScreamInc);
 			showTopFlavors(iScreamInc);
+			populateHeader(iScreamInc);
 		}
 		/* STEP 9: Build out the populateHeader() function */
 		function populateHeader(jsonObj) {
