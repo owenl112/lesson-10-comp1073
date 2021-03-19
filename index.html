@@ -61,7 +61,7 @@
 
 				// STEP 10f: Build a loop for the ingredients array in the JSON
 				let ingredients = topFlavors[i].ingredients;
-				ingredients.array.forEach(ing => {
+				ingredients.forEach(ing => {
 					let listItem = document.createElement("li");
 					listItem.textContent = ing;
 					list.appendChild(listItem);
