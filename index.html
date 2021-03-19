@@ -61,11 +61,11 @@
 
 				// STEP 10f: Build a loop for the ingredients array in the JSON
 				let ingredients = topFlavors[i].ingredients;
-				ingredients.forEach(ing => {
+				for(let j=0;j<ingredients.length; j++) {
 					let listItem = document.createElement("li");
-					listItem.textContent = ing;
+					listItem.textContent = ingredients[i];
 					list.appendChild(listItem);
-				});
+				};
 				// STEP 10g: Append each of the above HTML elements to the ARTICLE element
 				article.appendChild(h2);
 				article.appendChild(image);
