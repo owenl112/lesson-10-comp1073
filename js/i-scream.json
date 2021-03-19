@@ -25,6 +25,17 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : "Super Good idk",
+      "calories" : 500,
+      "type" : "frozen yogurt",
+      "ingredients" : [
+        "even gooder",
+        "even bester",
+        "the bestest"
+      ],
+      "image" : "strawberry-sprinkle.svg"
     }
   ]
 }
