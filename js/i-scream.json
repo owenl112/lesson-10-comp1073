@@ -27,15 +27,37 @@
       "image" : "peach-mango.svg"
     },
     {
-      "name" : "Super Good idk",
+      "name" : "Stupendous Strawberry",
       "calories" : 500,
       "type" : "frozen yogurt",
       "ingredients" : [
-        "even gooder",
-        "even bester",
-        "the bestest"
+        "wild strawberries",
+        "milk chocolate dip",
+        "candy sprinkles"
       ],
       "image" : "strawberry-sprinkle.svg"
+    },
+    {
+      "name" : "Feisty French Lime",
+      "calories" : 300,
+      "type" : "sorbet",
+      "ingredients" : [
+        "lime flavouring",
+        "lime juice",
+        "lime zest"
+      ],
+      "image" : "ice-cream-xtra1.svg"
+    },
+    {
+      "name" : "Cookie Dough",
+      "calories" : 550,
+      "type" : "ice cream",
+      "ingredients" : [
+        "chocolate chips",
+        "cookie dough chunks",
+        "cookie chunks"
+      ],
+      "image" : "ice-cream-xtra2.svg"
     }
   ]
 }
